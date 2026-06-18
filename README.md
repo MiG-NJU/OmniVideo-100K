@@ -1,5 +1,5 @@
 <div align="center">
-![head](assets/head.png)
+<img src="assets/head.png" width="100%" alt="DreamX-World Banner">
 
 # OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains
 
@@ -8,7 +8,7 @@
 [![Dataset](https://img.shields.io/badge/Dataset-OmniVideo--100K-blue)](https://huggingface.co/datasets/MiG-NJU/OmniVideo-100K)
 [![Dataset](https://img.shields.io/badge/Dataset-OmniVideo--Test-blue)](https://huggingface.co/datasets/MiG-NJU/OmniVideo-Test)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
-<\div>
+</div>
 
 This is the official repository for the paper **"OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains"**. 
 
