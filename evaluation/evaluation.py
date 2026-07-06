@@ -19,7 +19,7 @@ if __name__ == "__main__":
     args.add_argument("--results_file", type=str, default=None, help="Path to save the evaluation results.")
     args = args.parse_args()
 
-    if not args.results_file: 
+    if not args.results_file:
         args.results_file = os.path.join(f"results/{args.dataset}/{args.model_path.split('/')[-1]}.jsonl")
     os.makedirs(os.path.dirname(args.results_file), exist_ok=True)
 
