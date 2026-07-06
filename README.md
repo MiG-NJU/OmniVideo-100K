@@ -336,7 +336,7 @@ The evaluation code is provided in [./evaluation](https://github.com/MiG-NJU/Omn
 | Supported benchmarks | [Video-MME](https://huggingface.co/datasets/lmms-lab/Video-MME), [Video-MME-v2](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2), [Daily-Omni](https://huggingface.co/datasets/liarliar/Daily-Omni), [OmniVideoBench](https://huggingface.co/datasets/NJU-LINK/OmniVideoBench), [JointAVBench](https://huggingface.co/datasets/roverx12345/jointavbench), [FutureOmni](https://huggingface.co/datasets/OpenMOSS-Team/FutureOmni), and [OmniVideo-Test](https://huggingface.co/datasets/MiG-NJU/OmniVideo-Test). |
 | Supported models     | Qwen2.5-Omni, Qwen3-Omni, Uni-MoE-2.0-Omni, Video-SALMONN2_plus, omnivinci, MiniCPM-o-4_5, VITA-1.5, and Gemini. |
 
-Note that, the official JointAVBench evaluation randomly shuffles answer options at each run. For reproducible results with fixed option orders and answer indices, please run [fix_jointavbench.py](https://github.com/MiG-NJU/OmniVideo-100K/blob/main/evaluation/fix_jointavbench.py) before evaluation.
+Note that the official JointAVBench evaluation randomly shuffles answer options at each run. For reproducible results with fixed option orders and answer indices, please run [fix_jointavbench.py](https://github.com/MiG-NJU/OmniVideo-100K/blob/main/evaluation/fix_jointavbench.py) before evaluation.
 
 We recommend organizing each benchmark dataset as follows:
 
