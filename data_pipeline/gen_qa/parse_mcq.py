@@ -163,11 +163,11 @@ if __name__ == "__main__":
                                 "metadata": item.get("metadata", None),
                                 "resolution": item.get("resolution", None),
                                 "task": task,
-                                "Q_num": item["Q"] + events_str,
-                                "Options_num": option_num,
-                                "Q_event": item["Q"].replace("following", "").replace("  ", " "),
-                                "Options_event": options_events,
-                                "A_event": chr(65 + correct_pos_index),
+                                "Q_indexed": item["Q"] + events_str,
+                                "Options_indexed": option_num,
+                                "Q_textual": item["Q"].replace("following", "").replace("  ", " "),
+                                "Options_textual": options_events,
+                                "A": chr(65 + correct_pos_index),
                                 "events": events,
                                 "analysis": item["analysis"]}
                         f_out.write(json.dumps(data, ensure_ascii=False) + "\n")

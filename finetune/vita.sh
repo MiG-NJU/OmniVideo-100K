@@ -1,5 +1,4 @@
 #!/bin/bash
-export HF_ENDPOINT="https://hf-mirror.com"
 export CUDA_DEVICE_MAX_CONNECTIONS=1
 DIR=`pwd`
 export PYTHONPATH=$PYTHONPATH:$(pwd)
