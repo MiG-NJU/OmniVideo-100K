@@ -1,7 +1,8 @@
 <div align="center">
-<img src="assets/head.png" width="100%">
 
 # OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains
+
+<img src="assets/head.png" width="100%">
 
 [![Project Page](https://img.shields.io/badge/Project-Page-orange)](https://yzlmhzz.github.io/OmniVideo-100K/)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2606.14702)
