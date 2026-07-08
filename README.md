@@ -24,7 +24,7 @@ This is the official repository for the paper **"OmniVideo-100K: A Dataset for A
 - [📦 Datasets & Models](#datasets-models)
 - [📈 Performance](#performance)
 - [🚀 Pipeline Quick Start](#pipeline-quick-start)
-- [⭐ Training](#️training)
+- [⭐ Training](#training)
 - [📏 Evaluation](#evaluation)
 - [📚 Citation](#citation)
 - [📬 Contact](#contact)
